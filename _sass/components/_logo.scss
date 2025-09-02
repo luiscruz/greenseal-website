@@ -14,8 +14,8 @@
 }
 .logo-mobile {
   display: block;
-  width: 40px;
-  padding: 10px 0 10px 0;
+  width: 56px;
+  padding: 2px 0 2px 0;
   @include media-breakpoint-up(sm) {
     display: none;
   }
