@@ -1,4 +1,5 @@
-baseurl: '/GreenSeal'
+baseurl: ''
+url: "https://www.greenseal.dev"
 permalink: pretty
 title: 'GreenSeal.dev'
 
