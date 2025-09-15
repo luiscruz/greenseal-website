@@ -3,5 +3,10 @@
       "name": "Email",
       "link": "mailto:luismirandacruz@gmail.com ",
       "image": "images/social/email.svg"
+  },
+  {
+      "name": "LinkedIn",
+      "link": "https://www.linkedin.com/company/greenseal-dev/",
+      "image": "images/social/linkedin.svg"
   }
 ]
