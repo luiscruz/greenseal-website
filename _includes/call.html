@@ -1,15 +1,14 @@
 <div class="call">
   <div class="call-box-top">
-    {% if site.data.contact.phone %}
-        <div class="call-phone"><strong>Phone: </strong> {{ site.data.contact.phone }} </div>
-    {% endif %}
-    {% if site.data.contact.email %}
+        {% if site.data.contact.email %}
     <div class="call-email"><strong>Email: </strong>
       <a href="mailto:{{ .site.data.contact.email }}">
         {{ site.data.contact.email }}
       </a>
     </div>
     {% endif %}
+
+    <div class="call-phone"><strong><a href="https://calendly.com/greenseal-info/30min">Book Your Free Efficiency Assessment Call </a></strong></div>
   </div>
     {% if include.show_button %}
       <div class="call-box-bottom">
