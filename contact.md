@@ -5,8 +5,8 @@ description: Contact
 ---
 
 **Email:** <info@greenseal.dev>
-
----
+    
+Follow us on [LinkedIn](https://www.linkedin.com/company/greenseal-dev/).
 
 📅 [Book Your Free AI & Cloud Efficiency Assessment](https://calendly.com/greenseal-info/book-a-call)
 
