@@ -31,10 +31,14 @@ Our mission is to integrate sustainability into the very core of software engine
 
 We envision a software and AI industry where sustainability is not an afterthought, but a standard. Every line of code and every model parameter has the potential to contribute to climate goals. GreenSeal exists to help organizations achieve that potential, whether they are building enterprise systems, deploying large language models, or experimenting with agentic AI.
 
-# Leadership
+<!-- # Leadership -->
+<!---->
+<!-- GreenSeal was founded by [Luís Cruz](https://www.linkedin.com/in/luismirandacruz/), PhD in Computer Science and award-winning researcher in Green AI and Software Engineering. His research and consulting work focus on the sustainability of cutting-edge AI technologies, including large language models and agentic AI systems. By bridging rigorous academic insight with industry needs, GreenSeal delivers science-driven guidance designed for real-world impact. -->
 
-GreenSeal was founded by [Luís Cruz](https://www.linkedin.com/in/luismirandacruz/), PhD in Computer Science and award-winning researcher in Green AI and Software Engineering. His research and consulting work focus on the sustainability of cutting-edge AI technologies, including large language models and agentic AI systems. By bridging rigorous academic insight with industry needs, GreenSeal delivers science-driven guidance designed for real-world impact.
 
 
+<br/>
 
+
+{% include book-a-call.html %}
 
