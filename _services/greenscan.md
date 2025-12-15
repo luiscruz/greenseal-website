@@ -1,5 +1,5 @@
 ---
-title: "GreenScan – AI & Cloud Efficiency Audit"
+title: "GreenScan™ – AI & Cloud Efficiency Audit"
 date: 2018-11-18T12:33:46+10:00
 weight: 2
 summary: |
@@ -10,11 +10,9 @@ summary: |
  - Workload and infrastructure profiling  
  - Energy and cost hotspot analysis  
  - Benchmarking and ROI estimation
- 
- 👉 [Learn more about GreenScan](/services/greenscan/)
 ---
 
-GreenScan is a **short, focused efficiency audit** based on measured data and peer-reviewed techniques.
+GreenScan™ is a **short, focused efficiency audit** based on measured data and peer-reviewed techniques.
 
 ### What’s included
 - Profiling of AI workloads and cloud usage  

@@ -27,4 +27,4 @@ In a free 30-minute call, we identify where your AI systems and cloud infrastruc
 - Spend €2,000+/month on cloud infrastructure  
 - Want actionable insights before investing further  
 
-👉 **[Book your free assessment](/contact/)**
+{% include book-a-call.html %}

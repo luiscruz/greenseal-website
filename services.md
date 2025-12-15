@@ -48,7 +48,8 @@ intro_image_hide_on_mobile: true
 <!-- <div class="container pt-6 pb-6"> -->
   <!-- <div class="row strip-grey"> -->
     <h2>Core Services</h2>
-    {% for service in site.services %}
+     {% assign sorted_services = site.services | sort: "weight" %}
+     {% for service in sorted_services %}
     <div class="col-12 col-md-6 mb-3">
       <div class="service service-summary">
         <div class="service-content">
@@ -56,6 +57,9 @@ intro_image_hide_on_mobile: true
             <a href="{{ service.url | relative_url }}">{{ service.title }}</a>
           </h2>
           <p>{{ service.summary | default: service.excerpt | markdownify | truncatewords: 70 }}</p>
+          <p>
+          <a href="{{ service.url | relative_url }}">👉 Learn more about this service.</a>
+          </p>
         </div>
       </div>
     </div>

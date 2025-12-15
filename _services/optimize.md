@@ -1,5 +1,5 @@
 ---
-title: "Optimize – AI & Cloud Optimization Sprint"
+title: "Optimize™ – AI & Cloud Optimization Sprint"
 date: 2018-11-18T12:33:46+10:00
 weight: 3
 summary: |
@@ -11,7 +11,6 @@ summary: |
  - Direct implementation support  
  - Measured before/after impact  
 
- 👉 [Learn more about Optimize](/services/optimize/)
 ---
 
 A **hands-on optimization sprint** focused on delivering measurable efficiency improvements.
