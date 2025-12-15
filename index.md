@@ -8,10 +8,12 @@ intro_image_hide_on_mobile: true
 show_call_box: false
 ---
 
-# GreenSeal – developing sustainable software
+# <span style="color: #507C69;">Green</span>Seal.dev 
+
+**Developing Sustainable Software.**
 
 We help engineering teams reduce energy consumption and infrastructure costs 
-across cloud and AI systems – without sacrificing performance.
+across cloud and AI systems without sacrificing performance.
 
 <p>
 <strong>Typical results: 20–50% cost reduction in AI pipelines.</strong>
