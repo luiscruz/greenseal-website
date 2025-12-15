@@ -32,9 +32,9 @@ Our work focuses on **evidence, not assumptions**: every recommendation is groun
 # Our Services
 
 - **Consulting** – Sustainability audits and tailored strategies for software and AI teams.
+- **Certification** – Recognizing organizations committed to sustainable practices in software and AI.
 - **Training** – Workshops and courses to build awareness and practical skills in green software and responsible AI.
 - **Talks & Keynotes** – Inspiring sessions on sustainability, AI, and the future of digital technology.
-- **Certification** – Recognizing organizations committed to sustainable practices in software and AI.
 
 # Our Vision
 
