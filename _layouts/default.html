@@ -4,11 +4,13 @@
 <head>
   <meta charset="utf-8">
   <title>
-    {% if page.title %}
-      {{ page.title }} · {{ site.title }}
-    {% else %}
-      {{ site.title }} · {{ site.tagline }}
-    {% endif %}
+  {% if page.url == "/" %}
+    {{ site.title }} - {{ site.tagline }}
+  {% elsif page.title %}
+    {{ page.title }} · {{ site.title }}
+  {% else %}
+    {{ site.title }} · {{ site.tagline }}
+  {% endif %}
   </title>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="keywords"

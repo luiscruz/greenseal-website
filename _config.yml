@@ -2,6 +2,7 @@ baseurl: ''
 url: "https://www.greenseal.dev"
 permalink: pretty
 title: 'GreenSeal.dev'
+tagline: Energy-efficient AI & software engineering
 description: >
   Measured, engineering-driven services to reduce energy consumption
   and infrastructure costs in AI and cloud systems.
