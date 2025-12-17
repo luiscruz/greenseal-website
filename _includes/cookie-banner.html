@@ -1,0 +1,55 @@
+<div id="cookie-banner" style="display:none;position:fixed;bottom:0;width:100%;background:rgba(0, 93, 52, 0.5);color:white;padding:1rem;text-align:center;z-index:9999;">
+  We use cookies to improve your experience and measure conversions.  
+  <button id="accept-cookies" style="margin-left:1rem;padding:0.5rem 1rem;">Accept</button>
+  <button id="reject-cookies" style="margin-left:0.5rem;padding:0.5rem 1rem;">Reject</button>
+</div>
+
+<script>
+  // Check if user has already made a choice
+  if(!localStorage.getItem('cookieConsent')) {
+
+    // Detect region via IP API (EEA)
+    fetch('https://ipapi.co/json/')
+      .then(res => res.json())
+      .then(data => {
+        const eeaCountries = ['AT','BE','BG','HR','CY','CZ','DK','EE','FI','FR','DE','GR','HU','IS','IE','IT','LV','LI','LT','LU','MT','NL','NO','PL','PT','RO','SK','SI','ES','SE']; 
+        const inEEA = eeaCountries.includes(data.country_code);
+        
+        if(inEEA) {
+          document.getElementById('cookie-banner').style.display = 'block';
+        } else {
+          // Automatically grant consent outside EEA
+          gtag('consent', 'update', {
+            ad_storage: 'granted',
+            ad_user_data: 'granted',
+            ad_personalization: 'granted',
+            analytics_storage: 'granted'
+          });
+          localStorage.setItem('cookieConsent','granted');
+        }
+      });
+  }
+
+  // User interaction
+  document.getElementById('accept-cookies').addEventListener('click', () => {
+    gtag('consent', 'update', {
+      ad_storage: 'granted',
+      ad_user_data: 'granted',
+      ad_personalization: 'granted',
+      analytics_storage: 'granted'
+    });
+    localStorage.setItem('cookieConsent','granted');
+    document.getElementById('cookie-banner').style.display='none';
+  });
+
+  document.getElementById('reject-cookies').addEventListener('click', () => {
+    gtag('consent', 'update', {
+      ad_storage: 'denied',
+      ad_user_data: 'denied',
+      ad_personalization: 'denied',
+      analytics_storage: 'denied'
+    });
+    localStorage.setItem('cookieConsent','denied');
+    document.getElementById('cookie-banner').style.display='none';
+  });
+</script>
