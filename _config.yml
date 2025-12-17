@@ -2,6 +2,10 @@ baseurl: ''
 url: "https://www.greenseal.dev"
 permalink: pretty
 title: 'GreenSeal.dev'
+description: >
+  Measured, engineering-driven services to reduce energy consumption
+  and infrastructure costs in AI and cloud systems.
+default_image: '/images/logo/og-default.jpg'
 
 logo:
   mobile: "images/logo/logo-mobile.svg"
