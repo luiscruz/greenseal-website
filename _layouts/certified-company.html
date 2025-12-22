@@ -1,0 +1,53 @@
+---
+layout: page
+---
+
+{% assign cert = site.data.certification_levels | where: "id", page.certification | first %}
+<div class="certified-company-page">
+  <div class="gsp-header">
+    <h1>{{ page.name }}</h1>
+    <p><strong>Certification:</strong> {{ cert.name }}.<br/>
+      {{cert.description}}.<br/>
+      <a href="{{"/gsp/levels" | absolute_url}}" target="_blank">Read more about certification levels</a>.</p>
+    <p><strong>Issued by:</strong> {{ page.certification_body }}</p>
+    <p><strong>Certified on:</strong> {{ page.certified_on }} | <strong>Valid until:</strong> {{ page.valid_until }} 
+    {% if valid_until_ts < now_ts %}<span class="gsp-expired">‼️</span>
+    {% else %}<span class="gsp-valid">✅</span>
+    {% endif %}</p>
+    {% if page.website %}
+    <p><strong>Website:</strong> <a href="{{ page.website }}">{{ page.website }}</a></p>
+    {% endif %}
+  </div>
+
+  <div class="domains">
+    <h2>Certified Domains</h2>
+    <ul>
+      {% if page.domains.software %}
+      <li>Sustainable Software Engineering</li>
+      {% endif %}
+      {% if page.domains.ai %}
+      <li>Sustainable AI & ML Practices</li>
+      {% endif %}
+    </ul>
+  </div>
+
+  <div>
+    <h2>Badge</h2>
+  {% include gsp-badge.html
+    level=page.certification
+    url=page.url
+  %}
+  </div>
+
+  <div class="disclaimer">
+    <p><em>The Green Software Practices (GSP™) Certification reflects the sustainable software and AI practices of the company at the time of audit. Operated by GreenSeal, Lda. Use of this badge is subject to<a href="{{'/gsp/terms' | absolute_url}}" target="_blank"> GSP™ Terms & Conditions</a>.</em></p>
+  </div>
+
+  {% if page.public_report %}
+  <div class="report-link">
+    <a class="button" href="{{page.public_report | absolute_url}}" target="_blank">View Public Report</a>
+  </div>
+  {% endif %}
+
+
+</div>

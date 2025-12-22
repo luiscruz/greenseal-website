@@ -1,4 +1,3 @@
-
 {
   "name": "GreenSeal",
   "short_name": "GreenSeal",
@@ -15,7 +14,7 @@
       "type": "image/png"
     }
   ],
-  "theme_color": "#0f172a",
-  "background_color": "#ffffff",
+  "theme_color": "#fff",
+  "background_color": "#507C69",
   "display": "standalone"
 }

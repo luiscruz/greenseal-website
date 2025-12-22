@@ -25,6 +25,9 @@ collections:
     sort_by: weight
   team:
     output: true
+  certified:
+    output: true
+    permalink: /gsp/certified/:name/
 
 defaults:
   - scope:

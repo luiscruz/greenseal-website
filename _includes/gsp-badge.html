@@ -1,0 +1,12 @@
+{% assign level = include.level %}
+{% assign url = include.url %}
+{% assign cert = site.data.certification_levels | where: "id", include.level | first %}
+
+<a href="{{ url }}">
+  <img
+  src="{{cert.badge | absolute_url}}"
+  width="200px"
+  alt="Green Software Practices™ – {{cert.name}} Certification"
+    class="gsp-badge"
+  />
+</a>
