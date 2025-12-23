@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: gsp
 title: Green Software Practices™ (GSP™) – Terms of Certification
 ---
 

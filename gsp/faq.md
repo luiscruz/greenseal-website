@@ -1,6 +1,6 @@
 ---
-layout: page
-title: GSP Certification FAQ
+layout: gsp
+title: GSP™ FAQ
 ---
 
 # Frequently Asked Questions

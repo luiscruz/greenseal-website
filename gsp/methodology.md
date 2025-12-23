@@ -1,6 +1,6 @@
 ---
-layout: page
-title: GSP Certification Methodology
+layout: gsp
+title: GSP™ Methodology
 ---
 
 # Certification Methodology

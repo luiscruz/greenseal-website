@@ -117,3 +117,58 @@ body {
     line-height: 1.3;
   }
 }
+
+// GSP
+.gsp-nav ul {
+  display: flex;
+  justify-content: left;
+  gap: 0;
+  margin: 0.5rem 0 1rem;
+  padding: 0;
+  list-style: none;
+  font-size: 0.8rem;
+  border-bottom: 1px solid #eee;
+}
+
+.gsp-nav li {
+  display: flex;
+  align-items: right;
+  margin:0;
+}
+
+.gsp-nav li + li::before {
+  content: "·";
+  margin: 0 0.5rem;
+}
+
+.gsp-nav a {
+  text-decoration: none;
+  font-weight: 400;
+  color: #555;
+}
+
+.gsp-nav .active a {
+  font-weight: 510;
+  color: #000;
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  .gsp-nav ul {
+    flex-direction: column; /* empilha links verticalmente */
+    align-items: flex-start; /* ainda alinhado à esquerda */
+  }
+
+  .gsp-nav li + li::before {
+    content: ""; /* remove o ponto entre itens em mobile */
+    margin: 0;
+  }
+
+  .gsp-nav li {
+    margin-bottom: 0.5rem; /* espaçamento vertical entre links */
+  }
+
+  .gsp-nav a {
+    font-size: 0.9rem; /* opcional: um pouco maior para touch */
+  }
+}

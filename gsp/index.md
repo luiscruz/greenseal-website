@@ -1,9 +1,7 @@
 ---
-layout: page
+layout: gsp
 title: GSP™ Certification
 ---
-
-## Green Software Practices™ Certification  
 
 The Green Software Practices™ (GSP™) Certification recognizes organizations that actively design, develop, and operate software and AI systems with reduced environmental impact.
 

@@ -1,8 +1,9 @@
 ---
-layout: page
+layout: gsp
 title: GSP™ Certified Organizations
 ---
 
+Below is a list of organizations already embracing the Green Software Practices™.
 
 {% for company in site.certified %}
   {%- assign cert = site.data.certification_levels | where: "id", include.level | first %}

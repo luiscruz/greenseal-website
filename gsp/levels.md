@@ -1,9 +1,9 @@
 ---
-layout: page
-title: GSP Certification Levels
+layout: gsp
+title: GSP™ Certification Levels
 ---
 
-# Certification Levels
+----
 
 GSP™ offers three certification levels, all based on the same core criteria, with increasing levels of validation and support.
 
