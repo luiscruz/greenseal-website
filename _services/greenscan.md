@@ -12,19 +12,18 @@ summary: |
  - Benchmarking and ROI estimation
 ---
 
-GreenScan™ is a **short, focused efficiency audit** based on measured data and peer-reviewed techniques.
+GreenScan™ is a **short, focUsed efficiency audit** based on measured data and peer-reviewed techniques.
+
 
 ### What’s included
 - Profiling of AI workloads and cloud usage  
-- Identification of energy and cost hotspots  
+- Energy and cost hotspot analysis
 - Benchmarking against best practices  
-- Prioritized optimization roadmap  
-- Estimated ROI per recommendation  
+- ROI-oriented optimization roadmap
 
 ### Duration
 ~2 weeks
 
-### Outcome
-A clear, actionable plan to reduce energy consumption and infrastructure costs.
+The result is a clear, evidence-backed plan for reducing costs and environmental impact.
 
 👉 **[Start with a free assessment](/contact/)**

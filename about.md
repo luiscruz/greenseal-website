@@ -33,19 +33,30 @@ GreenSeal.dev was created to close a persistent gap between sustainability resea
 
 Its origins lie in academic research on energy-efficient software and artificial intelligence, initially focused on developing tools and techniques to reduce the energy footprint of software-intensive systems. As this work expanded to large-scale AI and cloud-based infrastructures within leading research environments, its practical relevance became increasingly clear.
 
-Through industry collaborations and applied research projects, the same pattern emerged repeatedly:  
-while scientifically validated methods for improving software and AI efficiency exist, they are rarely integrated into everyday engineering workflows.
+Over time, this research expanded beyond isolated experiments into systematic studies of how software and AI systems consume energy in production, producing peer-reviewed methods for profiling, benchmarking, and improving efficiency — without compromising performance.
 
-This research was also translated into academic teaching in sustainable software engineering, helping train hundreds of computer science and AI students to design systems that are both high-performing and resource-efficient. Despite this growing body of knowledge, adoption in industry remained limited.
+In parallel, these insights were translated into formal academic teaching, helping train hundreds of computer science and AI students to design systems that are both high-performing and resource-efficient. Through this combination of research, education, and industry collaboration, one pattern became consistently clear:
 
-GreenSeal.dev was founded to operationalize these insights — bringing together academic rigor, engineering expertise, and industry collaboration to turn proven research into measurable, deployable impact for organizations.
+> scientifically validated methods for improving software and AI efficiency exist,
+but they are rarely operationalized or recognized in everyday engineering practice.
 
+Organizations could optimize systems, reduce costs, and lower energy consumption — yet lacked a credible, technical way to demonstrate and sustain those improvements over time.
 
-![Accounting Services](/images/keynote_luis.jpg)
+GreenSeal.dev was founded to operationalize this body of knowledge:
+to bring together academic rigor, engineering practice, and continuous measurement into a practical framework for real systems.
+
+From this foundation, the need for a clear, evidence-based efficiency label emerged naturally — one that reflects actual system behavior, relies on continuous measurement, and remains valid only while performance is maintained. This led to the creation of the label [Green Software Practices™ (GSP™)](/gsp/) as a formal way to recognize proven, sustained efficiency in software and AI systems.
+
+![Talks and Keynotes](/images/keynote_luis.jpg)
 
 # Leadership
 
-GreenSeal was founded by [Luís Cruz](https://www.linkedin.com/in/luismirandacruz/), PhD in Computer Science and award-winning researcher in Green AI and Software Engineering. His research and consulting work focus on the sustainability of cutting-edge AI technologies, including large language models and agentic AI systems. By bridging rigorous academic insight with industry needs, GreenSeal delivers science-driven guidance designed for real-world impact.
+GreenSeal.dev is co-founded and led by Luís Cruz, PhD in Computer Science, Assistant Professor, and internationally recognized researcher in Sustainable Software Engineering and Green AI.
+
+His work spans academic research, engineering practice, and industry collaboration, with a focus on the measurement, optimization, and governance of energy-efficient software and AI systems. He has authored numerous peer-reviewed publications and received multiple awards for academic excellence and research impact.
+
+GreenSeal.dev builds on this foundation through a network-based collaboration model, working closely with researchers, engineers, and industry partners to scale expertise according to the technical needs of each engagement.
+This structure ensures that GreenSeal’s methods remain scientifically grounded, independently verifiable, and continuously evolving.
 
 # Our Services
 

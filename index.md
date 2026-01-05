@@ -14,6 +14,7 @@ show_call_box: false
 
 We help engineering teams reduce energy consumption and infrastructure costs 
 across cloud and AI systems without sacrificing performance.
+Grounded in academic research and validated in production systems.
 
 <p>
 <strong>Typical results: 20–50% cost reduction in AI pipelines.</strong>

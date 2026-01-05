@@ -16,15 +16,12 @@ summary: |
 
 In a free 30-minute call, we identify where your AI systems and cloud infrastructure are wasting energy and money.
 
-### What you get
+### What you get:
 - High-level AI & cloud review  
 - Identification of key cost and energy hotspots  
 - 2–3 concrete optimization actions  
-- Rough estimate of savings potential  
+- Rough estimate of potential savings
 
-### Ideal for teams that
-- Run AI systems in production  
-- Spend €2,000+/month on cloud infrastructure  
-- Want actionable insights before investing further  
+This call helps you decide whether, where, and how to act — with no obligation.
 
 {% include book-a-call.html %}

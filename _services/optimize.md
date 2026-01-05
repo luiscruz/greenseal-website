@@ -15,11 +15,14 @@ summary: |
 
 A **hands-on optimization sprint** focused on delivering measurable efficiency improvements.
 
+We work directly with your engineering team to implement efficiency improvements, without sacrificing performance, reliability, or developer velocity.
+
 ### Typical focus areas
 - AI model efficiency and inference optimization  
-- Data pipelines and workflow optimization  
+- Resource-aware system design  
 - Cloud infrastructure tuning  
 - CI/CD energy and cost hotspots  
+- Performance–energy trade-off analysis
 
 ### What you get
 - Direct collaboration with your engineering team  

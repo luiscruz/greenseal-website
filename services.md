@@ -21,7 +21,7 @@ intro_image_hide_on_mobile: true
         </p>
 
         <p>
-          Our services deliver value quickly — from fast diagnostics to hands-on optimization
+          Our services deliver value quickly – from fast diagnostics to hands-on optimization
           and long-term efficiency strategies.
         </p>
 
