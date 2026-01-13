@@ -3,6 +3,8 @@ title: "Continuous Monitoring & Certification"
 date: 2018-11-18T12:33:46+10:00
 weight: 4
 summary: |
+ **Efficiency you can show. Sustainability you can trust.**
+
  Track, prove, and report efficiency improvements across your AI and cloud systems.
 
  - Continuous energy and cost monitoring
