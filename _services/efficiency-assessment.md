@@ -3,7 +3,7 @@ title: "Free AI & Cloud Efficiency Assessment"
 date: 2018-11-18T12:33:46+10:00
 weight: 1
 summary: |
-  **Start with clarity — at no cost.**
+  **Start with clarity at no cost.**
 
   A free 30-minute call to identify where your AI systems and cloud infrastructure are wasting energy and money.
 

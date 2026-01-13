@@ -12,7 +12,7 @@ summary: |
  - Benchmarking and ROI estimation
 ---
 
-GreenScan™ is a **short, focUsed efficiency audit** based on measured data and peer-reviewed techniques.
+GreenScan™ is a **short, focused efficiency audit** based on measured data and peer-reviewed techniques.
 
 
 ### What’s included

@@ -42,8 +42,8 @@ GreenSeal.dev works with a network of researchers and industry experts specializ
 
 Our work combines peer-reviewed research with hands-on engineering practice in benchmarking, optimization, and carbon-aware AI pipelines.
 
-All recommendations are based on **measured data and validated techniques** — not generic checklists or unverifiable ESG claims.
-
+All recommendations are based on **measured data and validated techniques**, not generic checklists or unverifiable ESG claims.
+GreenSeal.dev bridges leading research from top universities with production-grade engineering, helping organizations move from sustainability intent to measurable system-level impact.
 
 ---
 
