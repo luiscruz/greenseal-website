@@ -18,6 +18,8 @@ Each level reflects a different degree of maturity, evidence, and external revie
 - Public certification page
 - Valid for 6 months
 
+![Badge GSP level 1 – self-assessed]({{"images/gsp/badges/gsp-level-1.svg" | absolute_url}})
+
 ⚠️ This level is based solely on self-declared information and is not independently verified.
 
 ---
@@ -35,6 +37,8 @@ Each level reflects a different degree of maturity, evidence, and external revie
 - Optional public summary report
 - Valid for 12 months
 
+![Badge GSP level 2 – verified]({{"images/gsp/badges/gsp-level-2.svg" | absolute_url}})
+
 This level provides external credibility and is suitable for organizations making public sustainability claims.
 All verifications result in a detailed assessment report, regardless of the certification outcome.
 
@@ -50,6 +54,8 @@ All verifications result in a detailed assessment report, regardless of the cert
 - Advanced internal enablement: workshops, keynotes, AMA sessions, and knowledge transfer
 - Regular check-ins and touchpoints to monitor progress
 - Delivery of actionable reports
+
+![Badge GSP level 3 – verified+]({{"images/gsp/badges/gsp-level-3.svg" | absolute_url}})
 
 Badge and Certification:
 - All participating organizations receive a **GSP™ Verified+ In Progress** badge during the engagement, indicating active participation in the GSP™ Verified+ program.

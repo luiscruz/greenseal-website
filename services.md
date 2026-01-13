@@ -64,7 +64,6 @@ intro_image_hide_on_mobile: true
       </div>
     </div>
     {% endfor %}
-        {% include book-a-call.html %}
   </div>
 </div>
 </div>
@@ -72,21 +71,7 @@ intro_image_hide_on_mobile: true
   <div class="container pt-6 pb-6 pb-md-10">
     <div class="row justify-content-start">
 
-        <h2>Education & Awareness</h2>
-
-        <h3>🎤 Talks & Keynotes</h3>
-        <p>
-          High-level sessions on sustainable software and AI efficiency for technical
-          and non-technical audiences.
-        </p>
-
-        <h3>🧑‍🏫 Training & Workshops</h3>
-        <p>
-          Hands-on workshops for developers, engineers, and managers focused on
-          energy-efficient systems.
-        </p>
-
-        <h3>📅 Not sure where to start?</h3>
+        <h3> Not sure where to start?</h3>
         <p>
           The <strong>Free Efficiency Assessment</strong> is the fastest way to understand
           your optimization potential.

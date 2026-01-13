@@ -55,7 +55,7 @@ Grounded in academic research and validated in production systems.
           By 2030, data-center electricity demand is projected to more than double, from 448 TWh in 2025 to 980 TWh*.
           <strong>Sustainable software engineering is no longer optional!</strong>
         </p>
-        <p><small>*Source: <a href="https://www.iea.org/reports/energy-and-ai/energy-demand-from-ai" target="_blank">The International Energy Agency</a></small></p>
+        <p><small>*Source: <a href="https://www.iea.org/reports/energy-and-ai/energy-demand-from-ai?utm_source=greenseal.dev" target="_blank">The International Energy Agency</a></small></p>
       </div>
     </div>
   </div>
@@ -74,7 +74,7 @@ Grounded in academic research and validated in production systems.
               <a href="{{ service.url | relative_url }}">{{ service.title }}</a>
               <!-- <a href="{{ "/services" | relative_url }}">{{ service.title }}</a> -->
             </h2>
-            <p>{{ service.excerpt | markdownify | strip_html | truncate: 100 }}</p>
+            <p>{{ service.excerpt | markdownify | strip_html | truncatewords: 30 }} <a href="{{ service.url | relative_url }}">Read more.</a></p>
           </div>
         </div>
       </div>
