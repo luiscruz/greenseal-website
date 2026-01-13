@@ -39,12 +39,12 @@ Grounded in academic research and validated in production systems.
   <div class="container pt-6 pb-6 pb-md-10">
     <div class="row align-items-center justify-content-center">
       <!-- Image -->
-      <div class="col-12 text-center mb-4 mb-md-0">
+      <div class="col-12 col-md-6 text-center mb-4 mb-md-0">
         <img
           src="{{ '/images/datacenter-plot.svg' | absolute_url }}"
           alt="Datacenter electricity usage plot"
           class="img-fluid"
-          style="max-width: 480px;"
+          style="max-width: 480px; width: 100%;"
         />
       </div>
 
