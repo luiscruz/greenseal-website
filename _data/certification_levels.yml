@@ -2,18 +2,18 @@
   name: GSP™ Aware
   description: Self-assessed sustainable software practices
   validity: 6
-  badge: /images/gsp/badges/gsp-level-1.png
+  badge: /images/gsp/badges/gsp-level-1.svg
 
 - id: verified
   name: GSP™ Verified
   description: Independently audited sustainable software practices
   validity: 12
-  badge: /images/gsp/badges/gsp-level-2.png
+  badge: /images/gsp/badges/gsp-level-2.svg
 
 - id: verified-plus
   name: GSP™ Verified+
   description: Verified practices with continuous support
   validity: 18
-  badge: /images/gsp/badges/gsp-level-3.png
+  badge: /images/gsp/badges/gsp-level-3.svg
 
 
