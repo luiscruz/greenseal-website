@@ -11,7 +11,9 @@ layout: page
       <a href="{{"/gsp/levels" | absolute_url}}" target="_blank">Read more about certification levels</a>.</p>
     <p><strong>Issued by:</strong> {{ page.certification_body }}</p>
     <p><strong>Certified on:</strong> {{ page.certified_on }} | <strong>Valid until:</strong> {{ page.valid_until }} 
-    {% if valid_until_ts < now_ts %}<span class="gsp-expired">‼️</span>
+    {%- assign valid_until_ts = page.valid_until | date: "%s" -%}
+    {%- assign now_ts = site.time | date: "%s" -%}
+    {% if valid_until_ts < now_ts %}<span class="gsp-expired"><em>‼️expired</em></span>
     {% else %}<span class="gsp-valid">✅</span>
     {% endif %}</p>
     {% if page.website %}
