@@ -19,6 +19,14 @@ Verified and Verified+ certifications are awarded only after independent verific
 ## Is this a product certification?
 No. GSP™ certifies **organizational practices**, not individual software products.
 
+## How is GSP™ different from other sustainability certifications/standards?
+
+While there are other sustainability certification frameworks, GSP™ stands out for being focused in development practices that make software more resource efficient. Most frameworks overlook the importance of building software products that are environmentally friendly.
+
+## How does GSP™ compare with ISO14001?
+
+ISO 14001 is a standard for Environmental Management Systems that addresses an organization’s environmental impact and supports continuous improvement. Nevertheless, it overlooks the environmental impact of software execution and the substantial carbon emission reductions that can be achieved through energy-efficient software design.
+
 ## Does paying for verification guarantee certification?
 
 No.
@@ -26,7 +34,7 @@ No.
 Organizations pay for an independent verification process, not for a badge.
 Certification badges (Verified or Verified+) are awarded only if the criteria are met.
 
-All paid verifications result in a detailed technical assessment report, regardless of the certification outcome.
+All paid certifications result in a detailed technical assessment report, regardless of the certification outcome.
 
 ## What happens if we do not pass the Verified certification?
 
