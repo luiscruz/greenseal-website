@@ -36,7 +36,7 @@ Grounded in academic research and validated in production systems.
 </div>
 
 <div class="strip strip-grey">
-  <div class="container pt-6 pb-6 pb-md-10">
+  <div class="container pt-6 pb-6 pb-md-6">
     <div class="row align-items-center justify-content-center">
       <!-- Image -->
       <div class="col-12 col-md-6 text-center mb-4 mb-md-0">
@@ -62,7 +62,7 @@ Grounded in academic research and validated in production systems.
 </div>
 
 <div class="strip strip-white">
-  <div class="container pt-6 pb-6 pb-md-10">
+  <div class="container pt-6 pb-6 pb-md-6">
     <div class="row justify-content-start">
       {% assign limit = site.home.limit_services | default: 6 %}
       {% assign sorted_services = site.services | sort: "weight" %}
