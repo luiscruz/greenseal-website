@@ -88,5 +88,49 @@ Grounded in academic research and validated in production systems.
   </div>
 </div>
 
+<div class="strip strip-grey">
+  <div class="container pt-6 pb-6 pb-md-10">
+    <div class="row align-items-center justify-content-center">
+    
+      <!-- Text -->
+      <div class="col-12 col-md-8">
+        <h2>
+            Certify your teams with GSP™<br/>
+            <small>Turn sustainability efforts into recognized value.</small>
+        </h2>
+        <p>
+            Many teams invest time and effort in making their software more sustainable, but that work often goes unseen.
+            <a href="{{"/gsp" |absolute_url }}">GSP™ (Green Software Practices)</a> makes your commitment visible and verifiable.
+        </p>
+        <p>
+            We certify how your development process applies recognized green software practices,
+            and provide clear, auditable evidence of your sustainability maturity.
+            This allows you to demonstrate your excellence to management, customers, and external stakeholders.
+        </p>
+        <p>
+            GSP™ comes in three different levels.
+            Choose the one that best matches your current practices and ambition.
+            <a href="{{"/gsp" |absolute_url }}">Learn more ▷</a>
+        </p>
+      </div>
+
+      <!-- Image -->
+      <div class="col-12 col-md-4 text-center mb-4 mb-md-0">
+        <div class="d-flex flex-column align-items-center gap-2">
+          {%- for level in site.data.certification_levels -%}
+            <img
+              src="{{ level.badge | absolute_url }}"
+              alt="Datacenter electricity usage plot"
+              class="img-fluid"
+              style="max-width: 200px; width: 100%"
+            />
+            {%-endfor-%}
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
 
 
