@@ -16,11 +16,7 @@ GSP™ applies to:
 
 The certification focuses on **practices**, not marketing claims.
 
-## Levels of certification
-
-- Level 1: Self-assessment (free)
-- Level 2: Verified certification
-- Level 3: Verified+ with expert support
+[Start your assessment ▷](/gsp/self-assessment)
 
 ## What is assessed?
 
@@ -32,12 +28,24 @@ GSP™ covers five main assessment areas:
 - Software & architecture practices
 - Continuous improvement
 
+[Learn more about our methodology ▷](/gsp/methodology)
+
+## Levels of certification
+
+- Level 1: Self-assessment (free)
+- Level 2: Verified certification
+- Level 3: Verified+ with expert support
+
+[Learn more about the different levels ▷](/gsp/levels)
+
 ## Why GSP™?
 
 - Engineering-first, not offset-based
 - Evidence-driven and auditable
 - Applicable to both software and AI systems
 - Designed for real-world teams, from scale-ups to enterprises
+
+[Start your assessment ▷](/gsp/self-assessment)
 
 ## Who is it for?
 
@@ -46,10 +54,13 @@ GSP™ covers five main assessment areas:
 - Organizations running AI/ML workloads
 - Engineering teams aiming to reduce energy, cost, and carbon impact
 
-👉 [View certification levels]({{"./levels" | absolute_path}})  
-👉 [Learn about the methodology]({{"./methodology" | absolute_path}})
+
+## Read More:
+- [View certification levels]({{"./levels" | absolute_path}})  
+- [Learn about the methodology]({{"./methodology" | absolute_path}})
+- [Frequently Asked Questions](/gsp/faq)
 
 
-👉 [Start your self-assessment](/gsp/self-assessment)
+> **[Start your self-assessment now!](/gsp/self-assessment)**
 
 

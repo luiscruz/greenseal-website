@@ -118,12 +118,14 @@ Grounded in academic research and validated in production systems.
       <div class="col-12 col-md-4 text-center mb-4 mb-md-0">
         <div class="d-flex flex-column align-items-center gap-2">
           {%- for level in site.data.certification_levels -%}
+            <a href="{{"/gsp/levels" |absolute_url}}">
             <img
               src="{{ level.badge | absolute_url }}"
               alt="Datacenter electricity usage plot"
               class="img-fluid"
               style="max-width: 200px; width: 100%"
             />
+            </a>
             {%-endfor-%}
         </div>
       </div>
