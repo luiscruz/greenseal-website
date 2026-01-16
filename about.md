@@ -11,13 +11,20 @@ We combine technical expertise with a deep understanding of sustainability to de
 
 # Our Mission
 
-> Saving the planet, one software system at a time.
+<!-- > Saving the planet, one software system at a time. -->
+<!-- > Make the software industry eco-friendly by default. -->
+
+## Make the **software industry sustainable** by default.
+
+<!-- > Change the software industry by making sustainability the norm. -->
+
+We help software teams measure, certify, and improve sustainability. Environmentally-friendly software becomes the default, not the exception. Our mission is to integrate sustainability into the very core of software engineering and artificial intelligence. We support companies in designing and implementing processes that minimize energy consumption and carbon emissions, ensuring that digital products and AI systems are efficient, responsible, and future-proof.
+
+> **Our Values:** Sustainability · Innovation · Transparency
+
+We envision a software and AI industry where sustainability is not an afterthought, but a standard. Every line of code and every model parameter has the potential to contribute to climate goals. GreenSeal exists to help organizations achieve that potential, whether they are building enterprise systems, deploying large language models, or experimenting with agentic AI.
 
 GreenSeal.dev works through a network-based collaboration model, connecting with researchers and industry experts across software engineering, machine learning systems, and sustainable computing.
-
-Our mission is to integrate sustainability into the very core of software engineering and artificial intelligence. We support companies in designing and implementing processes that minimize energy consumption and carbon emissions, ensuring that digital products and AI systems are efficient, responsible, and future-proof.
-
-**Values:** Sustainability · Innovation · Transparency
 
 This allows us to:
 - Apply state-of-the-art, peer-reviewed techniques to real-word systems
@@ -26,6 +33,16 @@ This allows us to:
 
 Our work is grounded in **evidence, not assumptions**: every recommendation is based on profiling, benchmarking, and validated optimization methods.
 
+![Talks and Keynotes](/images/keynote_luis.jpg)
+
+# Leadership
+
+GreenSeal.dev is co-founded and led by Luís Cruz, PhD in Computer Science, Assistant Professor, and internationally recognized researcher in Sustainable Software Engineering and Green AI.
+
+His work spans academic research, engineering practice, and industry collaboration, with a focus on the measurement, optimization, and governance of energy-efficient software and AI systems. He has authored numerous peer-reviewed publications and received multiple awards for academic excellence and research impact.
+
+GreenSeal.dev builds on this foundation through a network-based collaboration model, working closely with researchers, engineers, and industry partners to scale expertise according to the technical needs of each engagement.
+This structure ensures that GreenSeal’s methods remain scientifically grounded, independently verifiable, and continuously evolving.
 
 # How It All Started
 
@@ -46,30 +63,6 @@ GreenSeal.dev was founded to operationalize this body of knowledge:
 to bring together academic rigor, engineering practice, and continuous measurement into a practical framework for real systems.
 
 From this foundation, the need for a clear, evidence-based efficiency label emerged naturally — one that reflects actual system behavior, relies on continuous measurement, and remains valid only while performance is maintained. This led to the creation of the label [Green Software Practices™ (GSP™)](/gsp/) as a formal way to recognize proven, sustained efficiency in software and AI systems.
-
-![Talks and Keynotes](/images/keynote_luis.jpg)
-
-# Leadership
-
-GreenSeal.dev is co-founded and led by Luís Cruz, PhD in Computer Science, Assistant Professor, and internationally recognized researcher in Sustainable Software Engineering and Green AI.
-
-His work spans academic research, engineering practice, and industry collaboration, with a focus on the measurement, optimization, and governance of energy-efficient software and AI systems. He has authored numerous peer-reviewed publications and received multiple awards for academic excellence and research impact.
-
-GreenSeal.dev builds on this foundation through a network-based collaboration model, working closely with researchers, engineers, and industry partners to scale expertise according to the technical needs of each engagement.
-This structure ensures that GreenSeal’s methods remain scientifically grounded, independently verifiable, and continuously evolving.
-
-# Our Services
-
-- **Consulting** – Sustainability audits and tailored strategies for software and AI teams.
-- **Certification** – Recognizing organizations committed to sustainable practices in software and AI.
-- **Training** – Workshops and courses to build awareness and practical skills in green software and responsible AI.
-- **Talks & Keynotes** – Inspiring sessions on sustainability, AI, and the future of digital technology.
-
-# Our Vision
-
-We envision a software and AI industry where sustainability is not an afterthought, but a standard. Every line of code and every model parameter has the potential to contribute to climate goals. GreenSeal exists to help organizations achieve that potential, whether they are building enterprise systems, deploying large language models, or experimenting with agentic AI.
-
-
 
 
 # Let’s Work Together
