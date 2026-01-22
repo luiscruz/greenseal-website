@@ -105,11 +105,8 @@ Grounded in academic research and validated in production systems.
         <p>
             We certify how your development process applies recognized green software practices,
             and provide clear, auditable evidence of your sustainability maturity.
-            This allows you to demonstrate your excellence to management, customers, and external stakeholders.
-        </p>
-        <p>
             GSP™ comes in three different levels.
-            Choose the one that best matches your current practices and ambition.
+            Choose the one that suits you.
             <a href="{{"/gsp" |absolute_url }}">Learn more ▷</a>
         </p>
       </div>
