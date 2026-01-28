@@ -14,7 +14,7 @@ We combine technical expertise with a deep understanding of sustainability to de
 <!-- > Saving the planet, one software system at a time. -->
 <!-- > Make the software industry eco-friendly by default. -->
 
-## Make the **software industry sustainable** by default.
+## ✼ Make the **software industry sustainable** by default.
 
 <!-- > Change the software industry by making sustainability the norm. -->
 
