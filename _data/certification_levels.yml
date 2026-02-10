@@ -1,5 +1,5 @@
-- id: aware
-  name: GSP™ Aware
+- id: self-assessed
+  name: GSP™ Self-assessed
   description: Self-assessed sustainable software practices
   validity: 6
   badge: /images/gsp/badges/gsp-level-1.svg
