@@ -1,0 +1,29 @@
+---
+layout: page
+title: "Blog"
+---
+
+
+<ul class="list">
+
+{% assign blog_pages = site.pages | sort: "path" | reverse %}
+
+{% for post in blog_pages %}
+
+  {% if post.path contains "blog/" and post.name != "index.html" %}
+
+    {% assign file_date = post.name | slice: 0, 10 %}
+
+    <li class="mb-1">
+      <a href="{{ post.url }}">{{ post.title }}</a>
+      <small class="text-muted">
+        – {{ file_date | date: "%B %d, %Y" }}
+      </small>
+    </li>
+
+  {% endif %}
+
+{% endfor %}
+
+</ul>
+
