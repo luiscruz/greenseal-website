@@ -1,6 +1,8 @@
 ---
 title: "What no one is telling you about measuring energy of software."
-layout: page
+layout: blog
+author: Luís Cruz
+date: 2026-01-20
 ---
 
 Software is improving our society in several ways.
