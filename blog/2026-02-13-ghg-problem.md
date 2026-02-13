@@ -3,6 +3,7 @@ layout: blog
 title: "Your GHG Report is Lying to You: Why Carbon Accounting is Failing Software Engineering"
 date: 2026-02-13
 author: Luís Cruz
+image: /images/blog/e-waste.jpg
 ---
 
 > ***TL;DR** Stop bragging about your 'Carbon Neutral' cloud. If your code is inefficient, you’re just wasting someone else's renewable energy.*
@@ -16,7 +17,7 @@ At GreenSeal.dev, we believe the current obsession with carbon reporting is crea
 It’s time to move beyond accounting and start talking about [Green Software Practices™] (GSP™).
 
 
-![Dump of electronic waste.](/images/blog/e-waste.jpg)
+![Dump of electronic waste.]({{page.image}})
 
 # The Three Great Lies of Software Carbon Reporting
 
