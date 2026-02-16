@@ -32,7 +32,7 @@ By current reporting standards, your footprint remains low. In reality, you’ve
 Many firms think that by moving to a "Carbon Neutral" cloud provider, their job is done. This is the equivalent of buying a Hummer and claiming it’s eco-friendly because you only drive it on roads paved with recycled tires.
 
 Renewable energy is a finite resource.
-If your code is inefficient—using 10x the memory or CPU cycles it actually needs, you are wasting "green" energy that could have powered something else. Efficiency is not a luxury; it is a prerequisite for a sustainable grid.
+If your code is inefficient, using 10x the memory or CPU cycles it actually needs, you are wasting "green" energy that could have powered something else. Efficiency is not a luxury; it is a prerequisite for a sustainable grid.
 
 ## 3. The Hardware Killer (Software-Induced Obsolescence)
 
