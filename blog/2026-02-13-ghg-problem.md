@@ -23,7 +23,7 @@ It’s time to move beyond accounting and start talking about [Green Software Pr
 
 ## 1. The "Downstream" Loophole
 
-The GHG Protocol is notoriously bad at capturing the impact of software once it leaves your servers. If you build a mobile app that drains a user's battery in two hours, that energy consumption—and the resulting carbon—belongs to the user, not you.
+The GHG Protocol is notoriously bad at capturing the impact of software once it leaves your servers. If you build a mobile app that drains a user's battery in two hours, that energy consumption (and the resulting carbon) belongs to the user, not you.
 
 By current reporting standards, your footprint remains low. In reality, you’ve just exported your inefficiency to millions of devices. If your software forces a user to charge their phone twice as often, you are responsible for that energy spike. GHG reporting doesn't care; GSP does.
 
