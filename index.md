@@ -118,7 +118,7 @@ Grounded in academic research and validated in production systems.
             <a href="{{"/gsp/levels" |absolute_url}}">
             <img
               src="{{ level.badge | absolute_url }}"
-              alt="Datacenter electricity usage plot"
+              alt="{{ level.name }} certification badge"
               class="img-fluid"
               style="max-width: 200px; width: 100%"
             />
