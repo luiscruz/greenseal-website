@@ -18,7 +18,7 @@ intro_image_hide_on_mobile: true
 
 <p><strong>Developing Sustainable Software.</strong></p>
 
-<p>We help engineering teams reduce energy consumption and infrastructure costs 
+<p>We help engineering teams reduce energy consumption and infrastructure costs
 across cloud and AI systems without sacrificing performance.
 Grounded in academic research and validated in production systems.
 </p>
@@ -62,6 +62,49 @@ Grounded in academic research and validated in production systems.
 </div>
 
 <div class="strip strip-white">
+  <div class="container pt-6 pb-6 pb-md-10">
+    <div class="row align-items-center justify-content-center">
+
+      <!-- Text -->
+      <div class="col-12 col-md-8">
+        <h2>
+            Certify your teams with GSP™<br/>
+            <small>Turn sustainability efforts into recognized value.</small>
+        </h2>
+        <p>
+            Many teams invest time and effort in making their software more sustainable, but that work often goes unseen.
+            <a href="{{"/gsp" |absolute_url }}">GSP™ (Green Software Practices)</a> makes your commitment visible and verifiable.
+        </p>
+        <p>
+            We certify how your development process applies recognized green software practices,
+            and provide clear, auditable evidence of your sustainability maturity.
+            GSP™ comes in three different levels.
+            Choose the one that suits you.
+            <a href="{{"/gsp" |absolute_url }}">Learn more ▷</a>
+        </p>
+      </div>
+
+      <!-- Image -->
+      <div class="col-12 col-md-4 text-center mb-4 mb-md-0">
+        <div class="d-flex flex-column align-items-center gap-2">
+          {%- for level in site.data.certification_levels -%}
+            <a href="{{"/gsp/levels" |absolute_url}}">
+            <img
+              src="{{ level.badge | absolute_url }}"
+              alt="{{ level.name }} certification badge"
+              class="img-fluid"
+              style="max-width: 200px; width: 100%"
+            />
+            </a>
+            {%-endfor-%}
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<div class="strip strip-grey">
   <div class="container pt-6 pb-6 pb-md-6">
     <div class="row justify-content-start">
       {% assign limit = site.home.limit_services | default: 6 %}
@@ -87,49 +130,5 @@ Grounded in academic research and validated in production systems.
     </div>
   </div>
 </div>
-
-<div class="strip strip-grey">
-  <div class="container pt-6 pb-6 pb-md-10">
-    <div class="row align-items-center justify-content-center">
-    
-      <!-- Text -->
-      <div class="col-12 col-md-8">
-        <h2>
-            Certify your teams with GSP™<br/>
-            <small>Turn sustainability efforts into recognized value.</small>
-        </h2>
-        <p>
-            Many teams invest time and effort in making their software more sustainable, but that work often goes unseen.
-            <a href="{{"/gsp" |absolute_url }}">GSP™ (Green Software Practices)</a> makes your commitment visible and verifiable.
-        </p>
-        <p>
-            We certify how your development process applies recognized green software practices,
-            and provide clear, auditable evidence of your sustainability maturity.
-            GSP™ comes in three different levels.
-            Choose the one that suits you.
-            <a href="{{"/gsp" |absolute_url }}">Learn more ▷</a>
-        </p>
-      </div>
-
-      <!-- Image -->
-      <div class="col-12 col-md-4 text-center mb-4 mb-md-0">
-        <div class="d-flex flex-column align-items-center gap-2">
-          {%- for level in site.data.certification_levels -%}
-            <a href="{{"/gsp/levels" |absolute_url}}">
-            <img
-              src="{{ level.badge | absolute_url }}"
-              alt="{{ level.name }} certification badge"
-              class="img-fluid"
-              style="max-width: 200px; width: 100%"
-            />
-            </a>
-            {%-endfor-%}
-        </div>
-      </div>
-
-    </div>
-  </div>
-</div>
-
 
 
