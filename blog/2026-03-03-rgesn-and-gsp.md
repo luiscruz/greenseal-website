@@ -4,10 +4,14 @@ title: "RGESN and GSP™: Two Different Answers to the Same Question"
 date: 2026-03-03
 author: Luís Cruz
 tags: [green software, ecodesign, RGESN, GSP, certification]
-description: "RGESN and GSP™ are often mentioned in the same breath. They are not the same thing — and understanding the difference matters if you are serious about sustainable software engineering."
+description: "RGESN and GSP™ are often mentioned in the same breath. They are not the same thing and understanding the difference matters if you are serious about sustainable software engineering."
+image: /images/blog/gsp-vs-rgesn.svg
 ---
 
 RGESN and GSP™ are often mentioned in the same breath. They address overlapping concerns, they both live in the sustainable software space, and anyone evaluating one will eventually encounter the other. But they're not the same thing and understanding the difference matters if you're serious about sustainable software engineering rather than just ticking boxes.
+
+
+![RGESN will reach a ceiling.]({{page.image}})
 
 ## What each one actually is
 
@@ -39,7 +43,7 @@ GSP™ doesn't ask whether a specific product has the right image dimensions. It
 
 This is most visible in two of the five pillars.
 
-**Measurement & Observability** requires teams to define environmental KPIs, instrument their systems, and track energy and resource consumption over time. This isn't about reaching a threshold — it's about building the observability to surface problems you haven't anticipated yet.
+**Measurement & Observability** requires teams to define environmental KPIs, instrument their systems, and track energy and resource consumption over time. This isn't about reaching a threshold, it's about building the observability to surface problems you haven't anticipated yet.
 
 **Continuous Improvement** requires that teams act on what they measure, establish review cycles, and treat sustainability as an engineering discipline rather than a one-time audit.
 
@@ -57,7 +61,7 @@ A team can pass RGESN for a product while having no sustainable engineering prac
 
 RGESN is a useful starting point: concrete, bounded, and auditable. For teams new to ecodesign, working through its criteria gives them something tangible to do. For organisations operating in France or working with French public sector clients, it may also be a compliance requirement.
 
-GSP™ is what you reach for when you want to go beyond compliance. When the question shifts from "does this product pass the checklist?" to "how do we build the engineering capability to make all our software more sustainable, over time, at scale?" — that's where GSP™ operates.
+GSP™ is what you reach for when you want to go beyond compliance. When the question shifts from "does this product pass the checklist?" to "how do we build the engineering capability to make all our software more sustainable, over time, at scale?". That's where GSP™ operates.
 
 Used together, the picture is clear: RGESN tells you what a sustainable digital service looks like at delivery. GSP™ gives you the organisational framework to make that a repeatable outcome rather than a one-time achievement.
 
