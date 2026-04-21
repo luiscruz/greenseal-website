@@ -7,8 +7,37 @@ bodyClass: "page-team"
   <div class="row justify-content-start">
     <div class="col-12 col-md-8">
       <div class="team team-single">
-        <h1 class="title">{{page.title}}</h1>
-        <div class="content">{{content}}</div>
+
+        <a class="team-back-link" href="{{ '/team/' | relative_url }}">← Team</a>
+
+        <div class="team-single-header">
+          {% if page.image %}
+          <div class="team-single-image">
+            <img src="{{ page.image | relative_url }}" alt="{{ page.title }}" />
+          </div>
+          {% endif %}
+          <div class="team-single-meta">
+            <h1 class="team-single-name">{{ page.title }}</h1>
+            {% if page.jobtitle %}
+            <p class="team-single-jobtitle">{{ page.jobtitle }}</p>
+            {% endif %}
+            <div class="team-single-links">
+              {% if page.linkedinurl %}
+              <a class="team-single-link" href="{{ page.linkedinurl }}" target="_blank" rel="noreferrer">
+                LinkedIn
+              </a>
+              {% endif %}
+              {% if page.websiteurl %}
+              <a class="team-single-link" href="{{ page.websiteurl }}" target="_blank" rel="noreferrer">
+                Website
+              </a>
+              {% endif %}
+            </div>
+          </div>
+        </div>
+
+        <div class="content">{{ content }}</div>
+
       </div>
     </div>
   </div>
