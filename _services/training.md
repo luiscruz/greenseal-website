@@ -20,3 +20,9 @@ Our multi-faceted curriculum supports software organisations in integrating gree
 - Talks & Keynotes. High-level sessions on sustainable software and AI efficiency for technical and non-technical audiences.
 - Training & Workshops. Hands-on workshops for developers, engineers, and managers focused on energy-efficient systems.
 
+### Who delivers it
+
+Training is led by **Luís Cruz**, Assistant Professor at TU Delft's Software Engineering Research Group and a published researcher in Sustainable Software Engineering and Green AI.
+His peer-reviewed work — including award-winning papers at ICSE, CAIN, and WIREs Data Mining & Knowledge Discovery — forms the scientific backbone of the curriculum.
+This is expertise grounded in active research, not in-house opinion.
+

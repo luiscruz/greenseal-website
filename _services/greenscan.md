@@ -21,6 +21,12 @@ GreenScan™ is a **short, focused efficiency audit** based on measured data and
 - Benchmarking against best practices  
 - ROI-oriented optimization roadmap
 
+### How we measure
+
+Energy data is collected using **[EnergiBridge](https://github.com/tdurieux/EnergiBridge)**, a cross-platform, open-source energy measurement toolkit co-developed with June Sallou and Thomas Durieux (TU Delft).
+EnergiBridge is peer-reviewed, independently published, and fully auditable — not a proprietary black box.
+Measurements cover CPU, GPU, DRAM, and full-system energy across Linux, macOS, and Windows.
+
 ### Duration
 ~2 weeks
 

@@ -4,8 +4,9 @@ permalink: pretty
 title: 'GreenSeal.dev'
 tagline: Energy-efficient AI & software engineering
 description: >
-  Measured, engineering-driven services to reduce energy consumption
-  and infrastructure costs in AI and cloud systems.
+  Peer-reviewed, engineering-driven services to reduce energy consumption
+  and infrastructure costs in AI, cloud, and edge systems. Specialists in
+  energy benchmarking, TinyML, and on-device inference efficiency.
 default_image: '/images/logo/og-default.jpg'
 
 logo:
@@ -16,8 +17,8 @@ logo:
   desktop_height: "32px"
   desktop_width: "220px"
 
-home: 
-  limit_services: 3
+home:
+  limit_services: 6
 
 collections:
   services:

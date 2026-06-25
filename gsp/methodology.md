@@ -45,3 +45,9 @@ Certification is granted based on:
 
 > GSP™ does not certify products. It certifies **organizational practices**.
 
+## Research foundation
+
+The GSP™ assessment criteria are derived from peer-reviewed research in Sustainable Software Engineering and Green AI, not from proprietary frameworks or internal opinion.
+The methodology is continuously informed by academic work published at leading venues including ICSE, CAIN, WIREs, and ACM SIGSOFT.
+[Learn more about the research behind GreenSeal →](/about/)
+

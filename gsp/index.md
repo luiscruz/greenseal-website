@@ -42,6 +42,8 @@ GSP™ covers five main assessment areas:
 
 - Engineering-first, not offset-based
 - Evidence-driven and auditable
+- Criteria grounded in peer-reviewed research in Sustainable Software Engineering and Green AI — not in-house opinion
+- Energy measurements use open-source tooling ([EnergiBridge](https://github.com/tdurieux/EnergiBridge)), not a proprietary black box
 - Applicable to both software and AI systems
 - Designed for real-world teams, from scale-ups to enterprises
 

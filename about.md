@@ -44,6 +44,28 @@ His work spans academic research, engineering practice, and industry collaborati
 GreenSeal.dev builds on this foundation through a network-based collaboration model, working closely with researchers, engineers, and industry partners to scale expertise according to the technical needs of each engagement.
 This structure ensures that GreenSeal’s methods remain scientifically grounded, independently verifiable, and continuously evolving.
 
+# Research Foundation
+
+GreenSeal's services are grounded in peer-reviewed research — not in-house opinion.
+The founder's academic work at TU Delft covers energy-efficient software, Green AI, and hardware energy profiling, and forms the scientific basis for GreenSeal's methodology.
+Papers are open-access; tooling is open-source.
+
+**Selected publications:**
+
+- E. Barba Roque, L. Cruz, T. Durieux (2025). *[Unveiling the Energy Vampires: A Methodology for Debugging Software Energy Consumption.](https://doi.org/10.1109/ICSE55347.2025.00118)* ICSE 2025. Best Paper Award.
+- T. Yarally, L. Cruz, D. Feitosa, J. Sallou, A. van Deursen (2023). *[Uncovering Energy-Efficient Practices in Deep Learning Training: Preliminary Steps Towards Green AI.](https://arxiv.org/abs/2303.13972)* CAIN 2023. ACM SIGSOFT Distinguished Paper Award.
+- L. Cruz, R. Abreu (2017). *Performance-based Guidelines for Energy Efficient Mobile Applications.* MobileSoft 2017. Most Influential Paper Award 2023.
+- J. Sallou, L. Cruz, T. Durieux (2023). *[EnergiBridge: Empowering Software Sustainability through Cross-Platform Energy Measurement.](https://arxiv.org/abs/2312.13897)* SANER 2024.
+- R. Verdecchia, J. Sallou, L. Cruz (2023). *[A Systematic Review of Green AI.](https://arxiv.org/abs/2301.11047)* WIREs Data Mining and Knowledge Discovery.
+- L. Cruz, P. Lago, H. Muccini, et al. (2025). *[Greening AI-Enabled Systems with Software Engineering: A Research Agenda for Environmentally Sustainable AI Practices.](https://arxiv.org/abs/2506.01774)* ACM SIGSOFT SEN.
+- E. Barba Roque, L. Cruz (2025). *[Energy Aware Development of Neuromorphic Implantables: From Metrics to Action.](https://arxiv.org/abs/2506.09599)* ICT4S 2025.
+
+## Open-Source Tooling: EnergiBridge
+
+Audits and benchmarks are powered by **[EnergiBridge](https://github.com/tdurieux/EnergiBridge)**, a cross-platform, open-source energy measurement toolkit.
+EnergiBridge was co-developed by Luís Cruz with June Sallou and Thomas Durieux (TU Delft).
+It is peer-reviewed, independently published, and fully auditable — not a proprietary black box.
+
 # How It All Started
 
 GreenSeal.dev was created to close a persistent gap between sustainability research and real-world software engineering practice.
