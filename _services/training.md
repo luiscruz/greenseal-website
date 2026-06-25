@@ -10,6 +10,7 @@ summary: |
  - Talk & Keynotes
  - Workshops
  - Certified training
+ - ISO/IEC TS 20125 readiness training
  - Events
 
 ---
@@ -19,6 +20,7 @@ Our multi-faceted curriculum supports software organisations in integrating gree
 
 - Talks & Keynotes. High-level sessions on sustainable software and AI efficiency for technical and non-technical audiences.
 - Training & Workshops. Hands-on workshops for developers, engineers, and managers focused on energy-efficient systems.
+- [ISO/IEC TS 20125 readiness](/services/iso-20125-readiness/). Dedicated training on the new digital services ecodesign specification, alongside hands-on readiness support.
 
 ### Who delivers it
 

@@ -11,6 +11,9 @@ _site/
 Gemfile.lock
 **/Gemfile.lock
 
+# Reference materials (not for publication, e.g. draft standards)
+/reference/
+
 # Temporary files
 tmp
 .DS_Store
