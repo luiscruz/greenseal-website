@@ -25,6 +25,15 @@ intro_image_hide_on_mobile: true
           and long-term efficiency strategies.
         </p>
 
+        <p>
+          Most teams start with a <strong><a href="/services/efficiency-assessment/">Free Assessment</a></strong>
+          to identify where energy and costs are being wasted, then move to a
+          <strong><a href="/services/greenscan/">GreenScan™ audit</a></strong> for a detailed diagnostic.
+          An <strong><a href="/services/optimize/">Optimize™ sprint</a></strong> turns findings into
+          measurable improvements, while
+          <strong><a href="/services/monitoring/">Continuous Monitoring</a></strong> locks in the gains over time.
+        </p>
+
         {% include book-a-call.html %}
 
     </div>

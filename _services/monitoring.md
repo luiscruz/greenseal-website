@@ -35,5 +35,5 @@ This ensures that efficiency recognition reflects actual system behavior, not in
 
 This service helps organizations move from one-off optimizations to sustained, verifiable impact, and prepares systems for efficiency recognition and labeling through GSP or independent verification.
 
-👉 **[Join early access](/contact/)**
+**[Talk to us about continuous monitoring →](/contact/)**
 

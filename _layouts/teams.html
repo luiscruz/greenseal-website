@@ -39,7 +39,7 @@ bodyClass: "page-teams"
                     <a target="_blank" href="{{ team.websiteurl }}" rel="noreferrer">Website</a>
                     {% endif %}
                 </div>
-                <div class="team-content">{{ team.excerpt | truncate: 120 }}</div>
+                <div class="team-content">{{ team.excerpt | markdownify }}</div>
             </div>
         </div>
         {% endfor %}

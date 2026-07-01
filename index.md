@@ -14,17 +14,12 @@ intro_image_hide_on_mobile: true
   <div class="container">
     <div class="row justify-content-start">
       <div class="col-12 col-md-7 col-lg-6 order-2 order-md-1">
-<h1><span style="color: #507C69;">Green</span>Seal.dev</h1>
+<p class="text-muted mb-1"><span style="color: #507C69;">Green</span>Seal.dev</p>
+<h1>Reduce AI & cloud costs, without sacrificing performance.</h1>
 
-<p><strong>Developing Sustainable Software.</strong></p>
+<p>We help engineering teams measure and reduce energy consumption and infrastructure costs across AI pipelines and cloud systems. Methods grounded in peer-reviewed research and validated in production.</p>
 
-<p>We help engineering teams reduce energy consumption and infrastructure costs
-across cloud and AI systems without sacrificing performance.
-Grounded in academic research and validated in production systems.
-</p>
-        <p>
-        <strong>Typical results: 20–50% cost reduction in AI pipelines.</strong>
-        </p>
+<p><strong>Typical results: 20–50% cost reduction in AI pipelines.</strong></p>
 
 {% include book-a-call.html %}
       </div>
