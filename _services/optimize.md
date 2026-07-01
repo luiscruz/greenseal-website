@@ -1,7 +1,7 @@
 ---
 title: "Optimize™ – AI & Cloud Optimization Sprint"
 date: 2018-11-18T12:33:46+10:00
-weight: 3
+weight: 7
 summary: |
  **Hands-on optimization with measurable results.**
 

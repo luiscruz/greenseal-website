@@ -1,7 +1,7 @@
 ---
 title: "Training & Education"
 date: 2025-11-18T12:33:46+10:00
-weight: 1
+weight: 3
 summary: |
  **Bring the expertise to the core of your organization.**
 

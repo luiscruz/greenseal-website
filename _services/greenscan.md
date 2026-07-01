@@ -1,7 +1,7 @@
 ---
 title: "GreenScan™ – AI & Cloud Efficiency Audit"
 date: 2018-11-18T12:33:46+10:00
-weight: 2
+weight: 6
 summary: |
  **A data-driven diagnostic based on real measurements.**
 
