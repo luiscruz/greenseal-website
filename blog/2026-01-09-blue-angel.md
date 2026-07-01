@@ -3,6 +3,7 @@ layout: blog
 title: "Why do we need GSP™ when we have Blauer Engel?"
 author: Luís Cruz
 date: 2026-01-09
+description: "Germany's Blauer Engel eco-label now certifies software products. Here's what it covers, where it falls short, and why GSP™ goes further for teams serious about energy efficiency."
 ---
 
 Although there are not many alternatives to certifying software organizations w.r.t. their commitment to building energy-efficient and environmentally friendly software products, a few options are out there. One of my favorites is Blauer Engel, a sustainability label developed by the German government to certify general consumer products. In this blog post, we will see what it is and why [GSP™] is still the best choice for software organizations that are truly committed to developing sustainable products.

@@ -3,6 +3,7 @@ title: "What no one is telling you about measuring energy of software."
 layout: blog
 author: Luís Cruz
 date: 2026-01-20
+description: "Measuring software energy consumption is harder than it sounds — and most teams aren't doing it. Here's why it matters and what makes it so difficult to get right."
 ---
 
 Software is improving our society in several ways.

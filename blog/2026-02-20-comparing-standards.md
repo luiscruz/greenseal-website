@@ -2,7 +2,8 @@
 layout: blog
 title: "Your ESG Report Won't Fix Your Code: Why Software Products Need More Than Just a Sustainability Badge"
 author: Luís Cruz
-date: 20-02-2026
+date: 2026-02-20
+description: "B Corp, ISO 14001, SBTi — these certifications audit your company. They don't make your code more efficient. Here's where Green Software Practices™ fits in the sustainability stack."
 image: "/images/blog/certification_iceberg.svg"
 ---
 

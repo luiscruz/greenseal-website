@@ -25,6 +25,18 @@ footer:
   - name: "Home"
     url: "/"
     weight: 1
+  - name: "Services"
+    url: "/services/"
+    weight: 2
+  - name: "GSP™"
+    url: "/gsp/"
+    weight: 3
+  - name: "Blog"
+    url: "/blog/"
+    weight: 4
+  - name: "Team"
+    url: "/team/"
+    weight: 5
   - name: "Contact"
     url: "/contact/"
-    weight: 2
+    weight: 6

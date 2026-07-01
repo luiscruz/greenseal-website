@@ -4,6 +4,7 @@ title: "Your GHG Report is Lying to You: Why Carbon Accounting is Failing Softwa
 date: 2026-02-13
 author: Luís Cruz
 image: /images/blog/e-waste.jpg
+description: "Your carbon-neutral badge looks great. But if your code is inefficient, you're just wasting someone else's renewable energy. Why GHG reporting creates a dangerous blind spot for software teams."
 ---
 
 > ***TL;DR** Stop bragging about your 'Carbon Neutral' cloud. If your code is inefficient, you’re just wasting someone else's renewable energy.*
