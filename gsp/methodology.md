@@ -16,24 +16,27 @@ The methodology is based on established research in:
 ## Core assessment areas
 
 ### 1. Governance & Culture
-- Sustainability training for engineers
 - Clear ownership of sustainability topics
 - Internal guidelines and policies
 
-### 2. Measurement & Profiling
+### 2. Training & Knowledge
+- Sustainability training for engineers
+- Internal dissemination of best practices
+- Organizational knowledge transfer
+
+### 3. Measurement & Observability
 - Resource and energy profiling of services
 - Monitoring at system and component level
 - Cost and energy awareness in cloud environments
 
-### 3. Engineering Practices
+### 4. Software & Architecture Practices
 - Performance-aware design decisions
 - Efficient use of compute, memory, and storage
 - Responsible AI model selection and deployment
 
-### 4. Knowledge Sharing
-- Internal dissemination of best practices
+### 5. Continuous Improvement
 - Documented use cases of efficiency improvements
-- Continuous learning and improvement
+- Continuous learning and improvement processes
 
 ## Evidence-based approach
 
