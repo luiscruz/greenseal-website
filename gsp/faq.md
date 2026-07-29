@@ -61,9 +61,9 @@ Yes. All GSP™ certifications are valid for a limited period and must be renewe
 Yes. GSP™ is designed to be inclusive and scalable.
 
 ## What is the difference between Self-Assessed and Verified certification?
-GSP™ Self-Assessed is based entirely on information provided by the organization and is not independently verified.
-Verified certification requires an external review of evidence and validation against GSP™ criteria by GreenSeal.
-The underlying checklist is the same, but the level of evidence and validation increases.
+GSP™ Self-Assessed is a lightweight self-declared assessment, based entirely on information provided by the organization and not independently verified.
+Verified certification is assessed against a substantially larger, more comprehensive set of criteria than Self-Assessed, and requires external review of evidence and validation by GreenSeal.
+The two levels are not the same checklist with different scrutiny applied. Verified certification covers more ground and adds independent review on top of it.
 
 ## Can we make public sustainability claims using GSP™?
 

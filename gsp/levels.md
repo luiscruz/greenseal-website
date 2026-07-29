@@ -5,7 +5,7 @@ title: GSP™ Certification Levels
 
 ----
 
-GSP™ offers three certification levels, all based on the same core criteria, with increasing levels of validation and support.
+GSP™ offers three certification levels, with increasing scope of criteria, evidence, validation, and support.
 Each level reflects a different degree of maturity, evidence, and external review.
 
 ## Level 1 – Self-Assessed
