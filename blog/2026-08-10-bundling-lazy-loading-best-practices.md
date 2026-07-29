@@ -1,0 +1,40 @@
+---
+layout: blog
+title: "Bundling, lazy loading, and the best practices that don't always apply"
+date: 2026-08-10
+author: Luís Cruz
+tags: [green software, sustainability, best practices, TS 20125, GSP]
+description: "Bundle your JS to cut requests. Lazy load everything below the fold. Both are true, until they aren't. A look at why sustainability and performance advice needs conditions attached, not just rules, and how ISO/IEC TS 20125-1:2026 gets this more right than most checklists."
+---
+
+A performance guide written for the HTTP/1.1 era tells you to bundle all your JavaScript into one file to cut down the number of requests the browser makes. Follow that advice today without asking why it existed, and on a modern HTTP/2 site you can end up doing the opposite of what it was ever for: shipping more bytes than a page needs, and blowing away a returning visitor's entire cache over a one-line code change. The guide isn't lying. It's describing a constraint that mostly isn't there anymore, and nothing about how the advice is usually repeated tells you that.
+
+This is the pattern behind a lot of sustainability and performance advice for software: a genuinely true observation, stated as a rule that applies everywhere or forever, when it actually only held under specific conditions, sometimes technical conditions that quietly changed after the advice got written down. Bundling and lazy loading are two of the clearest examples, worth walking through carefully, because the difference between "this helps" and "this helped, under conditions that used to hold" is exactly what a real technical assessment should catch and a checklist usually doesn't.
+
+## Bundling: the advice that was right, until the reason for it wasn't
+
+Under HTTP/1.1, bundling was correct because of a real, well documented constraint: browsers capped the number of concurrent connections a page could open to a single host, commonly around six in most major browsers, and every additional request carried real connection and handshake overhead on top of whatever bytes it was actually fetching. An app split across forty JavaScript files meant queueing behind that ceiling and paying the setup cost forty times over. Concatenating everything into one or two bundles was a genuine, measurable win: fewer requests, less overhead, faster loads, under the constraint that existed at the time.
+
+HTTP/2 changed the constraint. It multiplexes many requests over a single connection and compresses headers, which removes most of the per-request penalty that made bundling worth doing in the first place. On its own, that would just make blanket bundling advice outdated, no longer providing the benefit it once did. What makes continuing it actively counterproductive is what one giant bundle costs once the reason for having it disappears. A single-line change anywhere in the codebase invalidates the cache for the entire bundle, so a returning visitor re-downloads all of it instead of just the part that changed. And one bundle typically ships every page's code to every page, whether that page needs it or not, instead of loading only what a given page actually uses, which is what code-splitting exists to fix.
+
+None of this happened because bundling was ever a bad idea. It happened because the condition that made it a good idea, HTTP/1.1's connection ceiling, stopped holding, and the advice kept circulating on its own momentum, detached from the reason it was ever true. That's a different failure mode from advice that only applies to some devices or some pages. This is advice that was correct, then wrong, because the ground underneath it moved, and the correction, code-splitting and HTTP/2-aware chunking, still gets talked about as an optional optimization instead of what it actually is: the fix for advice that stopped applying.
+
+## Lazy loading: usually good, not automatically good
+
+Lazy loading, deferring images, video, or other resources until they're about to enter the viewport, is a narrower case than bundling, and the caveats are smaller, but they're real. For a long page where most visitors only scroll partway, lazy loading avoids downloading content nobody ends up seeing. That's a genuine, meaningful saving.
+
+It stops being a clean win in a few situations. If the content being deferred is something almost every visitor scrolls to anyway, you haven't avoided a load, you've just delayed an unavoidable one and added the overhead of an extra request to do it. Lazy loading can also fight with a service worker or CDN precaching strategy that already fetches those same assets upfront, you end up paying for both the precache and the deferred fetch, with no byte saved. And it has a well known SEO wrinkle: content that only loads on scroll or on a JavaScript event can be invisible to crawlers that don't execute that behavior, which is a tradeoff worth naming even though it's not primarily an energy question.
+
+None of this makes lazy loading a bad default. It makes it a good default with exceptions, which is a different claim than "always lazy load," and the difference matters if you're the one deciding what to defer and what to load upfront.
+
+## The standard gets more specific than people expect
+
+It's worth contrasting this with how [ISO/IEC TS 20125-1:2026](/blog/2026-06-25-iso-20125/) actually handles user-facing design choices, because it's more careful than most sustainability checklists give standards credit for. Its frugal user path ecopractice doesn't say "reduce notifications" as a floating principle. It recommends capping them, and even offers a concrete example figure, fewer than five a day, while being explicit that this is an illustrative target rather than a fixed number every service must hit. It recommends against design patterns that keep people engaged longer than the task requires, autoplay and infinite scroll among them, because those patterns drive usage that serves engagement metrics rather than the user's actual goal. And it recommends telling users when something is processing in the background, so they're not left guessing why their device is warm or their battery is dropping.
+
+What's notable is that the standard frames all of this as a recommendation, not a mandatory requirement. Even the body writing the standard was careful not to state a specific notification threshold as a universal shall. That's the same discipline the bundling and lazy loading examples are missing when they show up in generic listicles: precision about what's being claimed, and honesty about where it stops applying.
+
+## Why this is the harder, more useful way to give advice
+
+Rules without conditions are easy to write and easy to follow, which is exactly why they spread. "Bundle your JS" fits in a tweet. "Bundle your JS unless you're on HTTP/2 and it's fighting your caching and shipping unused code" doesn't, and it requires someone to know what changed before they repeat it. That extra step is inconvenient, and it's also the entire difference between advice that helps and advice that just feels like it does.
+
+This is the same reason [GSP™'s](/gsp/) verified certification is worth more than a self-declared checklist. It isn't just that verification adds scrutiny to the same set of boxes. Verified certification is assessed against a substantially larger, more comprehensive set of criteria, and an independent reviewer checks the evidence behind it rather than taking it on trust. Ticking a box for "we lazy load images" or "we bundle our assets" proves nothing about whether that decision still makes sense today, on HTTP/2, in a codebase that's since split into forty routes. An independent review that actually asks how a team decided to build something, and whether they checked that decision against current conditions rather than inherited ones, catches a gap that self-declaration alone can't. Sustainability advice that can't survive the question "under what conditions, and are those still true" isn't advice. It's a slogan with good intentions attached.
