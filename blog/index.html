@@ -5,8 +5,10 @@ title: "Blog"
 
 <div class="container pt-6 pb-6">
   {% assign blog_pages = site.pages | sort: "path" | reverse %}
+  {% assign now = site.time | date: "%s" %}
   {% for post in blog_pages %}
-    {% if post.path contains "blog/" and post.name != "index.html" %}
+    {% assign post_date = post.date | date: "%s" %}
+    {% if post.path contains "blog/" and post.name != "index.html" and post_date and post_date <= now %}
       {% assign file_date = post.name | slice: 0, 10 %}
       <div class="row mb-5 pb-4 border-bottom align-items-start">
         {% if post.image %}
