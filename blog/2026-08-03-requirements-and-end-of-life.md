@@ -8,6 +8,8 @@ description: "Requirements gathering and end of life are two ISO/IEC TS 20125-1:
 image: /images/blog/requirements-and-end-of-life.jpg
 ---
 
+> Requirements gathering and end of life are the two ISO/IEC TS 20125-1:2026 phases organizations consistently struggle to show real accountability for, and it's not really a gap in the standard. We ran a gap analysis against our own GSP™ Level 2 criteria and found the real gap is organizational, not technical. Here's what we found, and what we changed in GSP™ Level 2 because of it.
+
 <figure class="figure mb-4 d-block">
   <img src="/images/blog/requirements-and-end-of-life.jpg" alt="What TS 20125 Actually Asks of Requirements Gathering and End of Life" class="figure-img img-fluid rounded mb-1" />
   <figcaption class="figure-caption" style="font-size: 0.75rem;">Photo by Nick Ringsmuth</figcaption>

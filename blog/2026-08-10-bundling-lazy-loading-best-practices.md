@@ -5,9 +5,17 @@ date: 2026-08-10
 author: Luís Cruz
 tags: [green software, sustainability, best practices, TS 20125, GSP]
 description: "Bundle your JS to cut requests. Lazy load everything below the fold. Both are true, until they aren't. A look at why sustainability and performance advice needs conditions attached, not just rules, and how ISO/IEC TS 20125-1:2026 gets this more right than most checklists."
+image: /images/blog/bundling-lazy-loading-best-practices.jpg
 ---
 
-A performance guide written for the HTTP/1.1 era tells you to bundle all your JavaScript into one file to cut down the number of requests the browser makes. Follow that advice today without asking why it existed, and on a modern HTTP/2 site you can end up doing the opposite of what it was ever for: shipping more bytes than a page needs, and blowing away a returning visitor's entire cache over a one-line code change. The guide isn't lying. It's describing a constraint that mostly isn't there anymore, and nothing about how the advice is usually repeated tells you that.
+> Bundle your JavaScript to cut requests. Lazy load everything below the fold. Both used to be unambiguously good advice, and neither one still is without conditions attached. We looked at what changed, why the advice never caught up, and how ISO/IEC TS 20125-1:2026 handles this more carefully than most sustainability checklists do.
+
+<figure class="figure mb-4 d-block">
+  <img src="/images/blog/bundling-lazy-loading-best-practices.jpg" alt="Bundling, lazy loading, and the best practices that don't always apply" class="figure-img img-fluid rounded mb-1" />
+  <figcaption class="figure-caption" style="font-size: 0.75rem;">Photo by Kelly Sikkema on Unsplash</figcaption>
+</figure>
+
+Best practices are supposed to be tailored to the problem you actually have, not worn off the rack because they fit someone else's problem once. A performance guide written for the HTTP/1.1 era tells you to bundle all your JavaScript into one file to cut down the number of requests the browser makes. Follow that advice today without asking why it existed, and on a modern HTTP/2 site you can end up doing the opposite of what it was ever for: shipping more bytes than a page needs, and blowing away a returning visitor's entire cache over a one-line code change. The guide isn't lying. It's describing a constraint that mostly isn't there anymore, and nothing about how the advice is usually repeated tells you that.
 
 This is the pattern behind a lot of sustainability and performance advice for software: a genuinely true observation, stated as a rule that applies everywhere or forever, when it actually only held under specific conditions, sometimes technical conditions that quietly changed after the advice got written down. Bundling and lazy loading are two of the clearest examples, worth walking through carefully, because the difference between "this helps" and "this helped, under conditions that used to hold" is exactly what a real technical assessment should catch and a checklist usually doesn't.
 
