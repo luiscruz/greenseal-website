@@ -12,7 +12,7 @@ image: /images/blog/bundling-lazy-loading-best-practices.jpg
 
 <figure class="figure mb-4 d-block">
   <img src="/images/blog/bundling-lazy-loading-best-practices.jpg" alt="Bundling, lazy loading, and the best practices that don't always apply" class="figure-img img-fluid rounded mb-1" />
-  <figcaption class="figure-caption" style="font-size: 0.75rem;">Photo by Kelly Sikkema on Unsplash</figcaption>
+  <figcaption class="figure-caption" style="font-size: 0.75rem;">Photo by Kelly Sikkema</figcaption>
 </figure>
 
 Best practices are supposed to be tailored to the problem you actually have, not worn off the rack because they fit someone else's problem once. A performance guide written for the HTTP/1.1 era tells you to bundle all your JavaScript into one file to cut down the number of requests the browser makes. Follow that advice today without asking why it existed, and on a modern HTTP/2 site you can end up doing the opposite of what it was ever for: shipping more bytes than a page needs, and blowing away a returning visitor's entire cache over a one-line code change. The guide isn't lying. It's describing a constraint that mostly isn't there anymore, and nothing about how the advice is usually repeated tells you that.
