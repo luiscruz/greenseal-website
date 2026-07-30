@@ -5,9 +5,15 @@ date: 2026-08-03
 author: Luís Cruz
 tags: [green software, ecodesign, ISO, TS 20125, GSP, certification, standards]
 description: "Requirements gathering and end of life are two ISO/IEC TS 20125-1:2026 phases organizations consistently struggle to show real accountability for. Here's why that's an organizational gap, not a product one, and what GSP™ Level 2 now requires because of it."
+image: /images/blog/requirements-and-end-of-life.jpg
 ---
 
-Ask most engineering organizations who owns the environmental footprint of a system after it's decommissioned, and you'll get a shrug. Ask who decided a feature should be built in the first place, from a sustainability standpoint, and you'll get the same shrug. In the ISO/IEC TS 20125-1:2026 gap assessments we've run, requirements gathering and end of life are consistently the two life cycle phases with the least real accountability behind them, even at organizations that are otherwise doing well on the phases in between.
+<figure class="figure mb-4 d-block">
+  <img src="/images/blog/requirements-and-end-of-life.jpg" alt="What TS 20125 Actually Asks of Requirements Gathering and End of Life" class="figure-img img-fluid rounded mb-1" />
+  <figcaption class="figure-caption" style="font-size: 0.75rem;">Photo by Nick Ringsmuth on Unsplash</figcaption>
+</figure>
+
+How a digital product starts and how it ends says more about its sustainability than almost anything that happens in between, and almost nobody treats either moment that way. Ask most engineering organizations who owns the environmental footprint of a system after it's decommissioned, and you'll get a shrug. Ask who decided a feature should be built in the first place, from a sustainability standpoint, and you'll get the same shrug. In the ISO/IEC TS 20125-1:2026 gap assessments we've run, requirements gathering and end of life are consistently the two life cycle phases with the least real accountability behind them, even at organizations that are otherwise doing well on the phases in between.
 
 That's not really a gap in the standard. TS 20125 does address both phases, with concrete ecopractices for setting an environmental budget upfront and for decommissioning responsibly. The gap is one level up. A product's TS 20125 conformance declaration tells you the practice happened for that product, this time. It doesn't tell you whether the organization behind it has a named owner for that practice, measures it, or learns from it well enough to do it again on the next product. That's an organizational question, not a product one, and it's exactly the question GSP™ exists to answer. TS 20125 sets ecopractices for a service, verified only through the organization's own conformance declaration, not third-party certification. GSP™ certifies the organization's capability to build sustainable software repeatedly, which is a different and, for these two phases especially, more useful thing to certify.
 
