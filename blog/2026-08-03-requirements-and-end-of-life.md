@@ -10,7 +10,7 @@ image: /images/blog/requirements-and-end-of-life.jpg
 
 <figure class="figure mb-4 d-block">
   <img src="/images/blog/requirements-and-end-of-life.jpg" alt="What TS 20125 Actually Asks of Requirements Gathering and End of Life" class="figure-img img-fluid rounded mb-1" />
-  <figcaption class="figure-caption" style="font-size: 0.75rem;">Photo by Nick Ringsmuth on Unsplash</figcaption>
+  <figcaption class="figure-caption" style="font-size: 0.75rem;">Photo by Nick Ringsmuth</figcaption>
 </figure>
 
 How a digital product starts and how it ends says more about its sustainability than almost anything that happens in between, and almost nobody treats either moment that way. Ask most engineering organizations who owns the environmental footprint of a system after it's decommissioned, and you'll get a shrug. Ask who decided a feature should be built in the first place, from a sustainability standpoint, and you'll get the same shrug. In the ISO/IEC TS 20125-1:2026 gap assessments we've run, requirements gathering and end of life are consistently the two life cycle phases with the least real accountability behind them, even at organizations that are otherwise doing well on the phases in between.
